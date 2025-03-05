@@ -9,6 +9,7 @@
 
 import UIKit
 
+@MainActor
 @objc public protocol PKHUDAnimating {
 
     func startAnimation()
