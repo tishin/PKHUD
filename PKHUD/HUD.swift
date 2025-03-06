@@ -27,6 +27,7 @@ public enum HUDContentType {
     case customView(view: UIView)
 }
 
+@MainActor
 public final class HUD {
 
     // MARK: Properties
